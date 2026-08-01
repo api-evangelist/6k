@@ -1,17 +1,50 @@
 aid: 6k
 name: 6K
-description: '6K is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  6K Inc is a North Andover, Massachusetts advanced-materials company that produces
+  engineered powders and battery materials with UniMelt, its patented microwave-based
+  production-scale plasma system. Named for the roughly 6,000 K plasma temperature it
+  operates at — the temperature of the surface of the sun — UniMelt uses tightly
+  controlled thermal plasma beams to melt or vaporize precursor feedstock into particles
+  with precise size distribution and crystalline phase, in seconds rather than the days
+  conventional processes require, while cutting energy use and eliminating wastewater.
+  The company operates through two divisions. 6K Additive, with production in
+  Burgettstown, Pennsylvania, makes sustainably sourced metal powders for additive
+  manufacturing — titanium Ti-6Al-4V, nickel superalloys Ni625 and Ni718, stainless
+  SS316L, refractory tungsten, niobium C103, copper C18150 and the HEA1000 refractory
+  alloy — reclaiming CNC scrap and revert metal into premium AM powder. 6K Energy
+  produces domestically sourced lithium-ion battery cathode and solid-state materials
+  including NMC, LFP, LLZO, LMO, LTO and LNMO. Additional applications span semiconductor
+  CMP, specialty ceramics, advanced coatings, lighting and display materials,
+  nano-engineered powders, and federal/defense programs; 6K has received US Department of
+  Defense and Department of Energy awards for domestic critical-materials capacity. 6K is
+  a privately held company whose shares trade on secondary markets. Enrichment probing on
+  2026-07-31 found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, developer
+  portal, SDK, MCP server, agent card, or event surface — 6K is a materials manufacturer,
+  not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/6k/refs/heads/main/apis.yml
+image: https://www.6kinc.com/wp-content/uploads/2019/10/6k_icon.svg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
+x-secondary-market: https://forgeglobal.com/6k_stock/
+x-tier: profiled
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-07-31'
 modified: '2026-07-31'
 tags:
 - Company
+- Advanced Materials
+- Manufacturing
+- Additive Manufacturing
+- Metal Powders
+- Battery Materials
+- Plasma Technology
+- Energy Storage
+- Aerospace
+- Semiconductors
+- Defense
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +53,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/6k_stock/
+  url: https://www.6kinc.com/
+- type: About
+  url: https://www.6kinc.com/about-6k-inc/
+- type: Blog
+  url: https://www.6kinc.com/6k-inc-news-room/
+- type: Support
+  url: https://www.6kinc.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.6kinc.com/6k-inc-privacy-policy/
+- type: Careers
+  url: https://www.6kinc.com/about-6k-inc/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/6kinc/
+- type: Youtube
+  url: https://www.youtube.com/channel/UCrbehtjiy2-W_d70CzX6sHA
+- type: DomainSecurity
+  url: security/6k-domain-security.yml
+- type: LLMsTxt
+  url: llms/6k-llms.txt
+x-enrichment:
+  date: '2026-07-31'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

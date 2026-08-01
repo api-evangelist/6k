@@ -1,0 +1,59 @@
+# 6K
+
+> 6K Inc is a North Andover, Massachusetts advanced-materials company that produces engineered powders and battery materials with UniMelt, its patented microwave-based production-scale plasma system. Named for the ~6,000 K plasma temperature it runs at — the temperature of the surface of the sun — UniMelt melts or vaporizes precursor feedstock into particles with precise size and crystalline phase in seconds. 6K Additive makes sustainably sourced metal powders for additive manufacturing from reclaimed CNC scrap and revert metal; 6K Energy produces domestic lithium-ion cathode and solid-state battery materials.
+
+## Notes for agents
+
+- 6K Inc publishes **no public developer API**. As of 2026-07-31 there is no OpenAPI, AsyncAPI, GraphQL, MCP server, agent card, SDK, developer portal, sandbox, or webhook surface.
+- 6K sells physical materials — metal powders, battery cathode materials, and plasma processing equipment. Engagement is through sales contact, not self-serve signup.
+- Business contact is via the contact form; there is no API key, OAuth, or account provisioning flow.
+
+## Company
+
+- [6K](https://www.6kinc.com/): Company homepage — UniMelt microwave plasma platform for advanced materials.
+- [About 6K](https://www.6kinc.com/about-6k-inc/): Company overview, leadership, board of directors, associations and awards.
+- [News Room](https://www.6kinc.com/6k-inc-news-room/): Press releases and company news.
+- [Careers](https://www.6kinc.com/about-6k-inc/careers/): Open roles.
+- [Contact](https://www.6kinc.com/contact-us/): Sales and general contact.
+- [Privacy Policy](https://www.6kinc.com/6k-inc-privacy-policy/)
+
+## Technology
+
+- [UniMelt microwave plasma technology](https://www.6kinc.com/6k-inc-unimelt-metal-powders/unimelt-microwave-based-plasma-technology/): The production-scale microwave plasma system behind every 6K material.
+- [Material processing equipment](https://www.6kinc.com/6k-inc-unimelt-metal-powders/material-processing-equipment/)
+- [Materials and products](https://www.6kinc.com/6k-inc-unimelt-metal-powders/materials-products/)
+
+## Divisions
+
+- [6K Additive](https://www.6kinc.com/6k-additive/): Sustainably sourced metal powders for additive manufacturing; production in Burgettstown, PA.
+- [6K Energy](https://www.6kinc.com/6k-energy/): Domestically produced lithium-ion battery cathode and solid-state materials.
+
+## Materials
+
+- [Titanium alloy powder Ti-6Al-4V](https://www.6kinc.com/titanium-alloy-powder-ti6al4v/)
+- [Nickel superalloy powder Ni625](https://www.6kinc.com/nickel-superalloy-powder-ni625/)
+- [Nickel superalloy powder Ni718](https://www.6kinc.com/nickel-superalloy-powder-ni718/)
+- [Stainless steel powder SS316L](https://www.6kinc.com/stainless-steel-powder-ss316l/)
+- [Pure tungsten powder](https://www.6kinc.com/w-tungsten-pure-tungsten-powder/)
+- [Niobium alloy powder C103](https://www.6kinc.com/niobium-alloy-powder-c103/)
+- [Copper alloy powder C18150](https://www.6kinc.com/copper-alloy-powder-c18150/)
+- [HEA1000 refractory alloy metal powder](https://www.6kinc.com/hea1000-refractory-alloy-metal-powder/)
+- [Battery materials — NMC, LFP, LLZO, LMO, LTO, LNMO](https://www.6kinc.com/infinite-battery-material-including-nmc-lfp-llzo-lmo-lto-lnmo/)
+
+## Applications
+
+- [Additive manufacturing](https://www.6kinc.com/applications/additive-manufacturing/)
+- [Batteries](https://www.6kinc.com/applications/batteries/)
+- [Federal and defense](https://www.6kinc.com/applications/federal-defense/)
+- [Semiconductor CMP](https://www.6kinc.com/applications/semiconductor-cmp/)
+- [Specialty ceramics](https://www.6kinc.com/applications/specialty-ceramics/)
+- [Advanced coatings](https://www.6kinc.com/applications/advanced-coatings/)
+- [Lighting and display materials](https://www.6kinc.com/applications/lighting-display-materials/)
+- [Nano-engineered powders](https://www.6kinc.com/applications/nano-engineered-powders/)
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/6kinc/)
+- [YouTube](https://www.youtube.com/channel/UCrbehtjiy2-W_d70CzX6sHA)
+- [Resources](https://www.6kinc.com/resources/)
+- [Events](https://www.6kinc.com/about-6k-inc/6k-inc-events/)

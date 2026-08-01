@@ -1,0 +1,72 @@
+generated: '2026-07-31'
+method: probed
+source: live HTTP probes of the 6K web host
+host: https://www.6kinc.com
+note: >-
+  No /.well-known/ discovery documents are published. Every path below returned 404.
+  The site is a WordPress marketing site; 404 responses are served as the themed HTML
+  error page (or nginx's default 404 for paths outside WordPress routing), so no
+  false-positive JSON/SPA catch-all was observed. Recorded so re-runs do not re-probe
+  blind. No pointer is wired into apis.yml common[] because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+also_probed:
+- url: https://6kinc.com/.well-known/security.txt
+  status: 404
+contract_discovery:
+  note: >-
+    STEP 0b contract discovery run against every candidate host. No machine-readable
+    API contract of any kind was found. 6K Inc publishes no developer program.
+  probes:
+  - url: https://www.6kinc.com/openapi.json
+    status: 404
+  - url: https://www.6kinc.com/swagger.json
+    status: 404
+  - url: https://www.6kinc.com/api-docs
+    status: 404
+  - url: https://www.6kinc.com/docs
+    status: 404
+  - url: https://www.6kinc.com/llms.txt
+    status: 404
+  - url: https://api.6kinc.com/openapi.json
+    status: connection-failed
+    note: wildcard DNS resolves api/docs/developer subdomains to the same A record (35.196.57.42) but no HTTPS service answers
+  - url: https://developer.6kinc.com/
+    status: connection-failed
+  - url: https://docs.6kinc.com/
+    status: connection-failed
+  - url: https://status.6kinc.com/
+    status: connection-failed
+  graphql: not-found
+  mcp: not-found
+  agent_card: not-found
+  asyncapi: not-found
+  incidental:
+  - url: https://www.6kinc.com/wp-json/
+    status: 200
+    kind: WordPress core REST API (CMS default, wp/v2 namespace)
+    treated_as_api: false
+    reason: >-
+      The WordPress REST API is the CMS platform default exposed by the marketing site,
+      not a product API 6K designs, documents, versions or supports. Recording it as an
+      API entry would misrepresent 6K as an API provider and inflate its rating, so it is
+      logged here as an incidental finding only.
+  - url: https://www.6kinc.com/sitemap_index.xml
+    status: 200
+    kind: XML sitemap index
+  - url: https://www.6kinc.com/feed/
+    status: 200
+    kind: RSS 2.0 feed, 0 items (news items are a custom post type outside the default feed)
