@@ -29,7 +29,7 @@ x-source: harvest:secondary-market
 x-secondary-market: https://forgeglobal.com/6k_stock/
 x-tier: profiled
 x-tier-reason: harvest
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-31'
 modified: '2026-07-31'
 tags:
