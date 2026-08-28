@@ -23,6 +23,17 @@ description: >-
   portal, SDK, MCP server, agent card, or event surface — 6K is a materials manufacturer,
   not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/6k/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.6kinc.com/wp-content/uploads/2019/10/6k_icon.svg
 x-type: company
 x-source: harvest:secondary-market
