@@ -64,58 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-6K Inc is a North Andover, Massachusetts advanced-materials company that produces engineered
-powders and battery materials with **UniMelt**, its patented microwave-based production-scale
-plasma system. Named for the ~6,000 K plasma temperature it operates at — the temperature of the
-surface of the sun — UniMelt melts or vaporizes precursor feedstock into particles with precise
-size distribution and crystalline phase in seconds, cutting energy use and eliminating wastewater
-versus conventional processing.
+6K Inc is a North Andover, Massachusetts advanced-materials company that produces engineered powders and battery materials with UniMelt, its patented microwave-based production-scale plasma system. Named for the roughly 6,000 K plasma temperature it operates at — the temperature of the surface of the sun — UniMelt uses tightly controlled thermal plasma beams to melt or vaporize precursor feedstock into particles with precise size distribution and crystalline phase, in seconds rather than the days conventional processes require, while cutting energy use and eliminating wastewater. The company operates through two divisions. 6K Additive, with production in Burgettstown, Pennsylvania, makes sustainably sourced metal powders for additive manufacturing — titanium Ti-6Al-4V, nickel superalloys Ni625 and Ni718, stainless SS316L, refractory tungsten, niobium C103, copper C18150 and the HEA1000 refractory alloy — reclaiming CNC scrap and revert metal into premium AM powder. 6K Energy produces domestically sourced lithium-ion battery cathode and solid-state materials including NMC, LFP, LLZO, LMO, LTO and LNMO. Additional applications span semiconductor CMP, specialty ceramics, advanced coatings, lighting and display materials, nano-engineered powders, and federal/defense programs; 6K has received US Department of Defense and Department of Energy awards for domestic critical-materials capacity. 6K is a privately held company whose shares trade on secondary markets. Enrichment probing on 2026-07-31 found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, developer portal, SDK, MCP server, agent card, or event surface — 6K is a materials manufacturer, not an API provider.
 
-- **6K Additive** (Burgettstown, PA) — sustainably sourced metal powders for additive
-  manufacturing (Ti-6Al-4V, Ni625, Ni718, SS316L, tungsten, C103, C18150, HEA1000), reclaimed
-  from CNC scrap and revert metal.
-- **6K Energy** — domestically produced lithium-ion cathode and solid-state battery materials
-  (NMC, LFP, LLZO, LMO, LTO, LNMO).
+**Areas:** Company · Advanced Materials · Manufacturing · 3D Printing · Metal Powders · Battery Materials · Plasma Technology · Energy Storage · Aerospace · Semiconductors · Defense · Sustainability
 
-Applications span additive manufacturing, batteries, federal/defense, semiconductor CMP,
-specialty ceramics, advanced coatings, lighting and display materials, and nano-engineered
-powders. 6K has received US Department of Defense and Department of Energy awards for domestic
-critical-materials capacity. Privately held; shares trade on secondary markets.
+## 6K on APIs.io
 
-- https://www.6kinc.com/
-- https://forgeglobal.com/6k_stock/ (secondary-market listing that surfaced this company)
+Everything profiled for 6K is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/6k/](https://apis.io/providers/6k/)** — or go straight to one of the APIs or properties below.
 
-## API surface — none
+### Published properties
 
-A full enrichment pass on **2026-07-31** ran STEP 0b contract discovery against every candidate
-host and found **no machine-readable API contract and no developer program**:
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Surface | Result |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [6K Domain Security](https://apis.io/security/6k/6k-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.6kinc.com/)
+- [Support](https://www.6kinc.com/contact-us/)
+- [Blog](https://www.6kinc.com/news/)
+- [Privacy policy](https://www.6kinc.com/6k-inc-privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 8.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| OpenAPI / Swagger (`/openapi.json`, `/swagger.json`, `/api-docs`, `/docs`) | 404 |
-| GraphQL | not found |
-| MCP server | not found |
-| A2A agent card (`/.well-known/agent-card.json` and `/.well-known/agent.json`) | 404 — **nothing written**, agent cards are search-only |
-| AsyncAPI / webhooks | not found |
-| `/.well-known/*` (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json) | all 404 |
-| `llms.txt` | 404 (a generated one is saved to `llms/`) |
-| `api.` / `docs.` / `developer.` / `status.` subdomains | wildcard DNS resolves them, but no HTTPS service answers |
-| First-party SDKs / packages | none found on npm, PyPI or any registry |
-| GitHub org | `github.com/6Kinc` exists but has 0 public repos and no linked website, so first-party ownership is unverified — **no `GitHubOrganization` pointer wired** |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
 
-The site's WordPress core REST API (`/wp-json/`) does answer 200. It is the CMS platform default,
-not a product API 6K designs, documents or supports, so it is logged as an incidental finding in
-`well-known/6k-well-known.yml` and deliberately **not** registered as an API — doing so would
-misrepresent 6K as an API provider.
+**Agent readiness 0.0** — human-only
 
-## Artifacts
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Path | Type | Method |
-|---|---|---|
-| `apis.yml` | APIs.json 0.20 index | searched |
-| `security/6k-domain-security.yml` | DomainSecurity | probed |
-| `well-known/6k-well-known.yml` | well-known + contract-discovery probe record (no pointer — nothing found) | probed |
-| `llms/6k-llms.txt` | LLMsTxt | generated |
+**Regulatory alignment 8.2** — Energy & Utilities
 
-Vulnerability-disclosure and trust-center probes returned no verified hit, so those artifacts are
-absent rather than empty.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/6k/](https://apis.io/providers/6k/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 6K: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/6k/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
